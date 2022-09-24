@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;800;900&family=Roboto:ital,wght@0,300;0,900;1,100;1,500&display=swap');
+
+:root {
+   --link-1: #1085fb;
+   --link-2: #1085fb;
+   
+ }
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
+   animation-name: Opacity;
+   animation-duration: 2s;
+  /* background-image: url(/img/background.png);
+   background-repeat: repeat;*/
+   
+}
+.anuncio{
+   display: flex;
+   justify-content: center;
+   background-color: #1085fb;
+   color: white;
+   font-size: 1em;
+   font-weight: 600;
+   width: 100%;
+   
+}
+
+ /* start nav */  
+.navbar{
+   background-color: white;
+   display: grid;
+   grid-template-columns: repeat(8, 1fr);
+   align-items: center;
+   position: sticky;
+   top: 0;
+   z-index: 100vh;
+   
+}
+
+.navbar .logo{
+   width: 104px;
+   height: 104px;
+   grid-column: 2 / 3;
+}
+
+.navbar .menu{
+   grid-column: 3 / 8;
+   display: flex;
+   justify-content: space-around;
+}
+
+.navbar .menu li{
+   list-style: none;
+   font-size: 1.5rem;
+}
+
+.menu a{
+   text-decoration: none;
+   color: black;
+   
+ }
+   .menu a:hover{
+   background-color: transparent;
+   color: #1085fb;
+   transition: 0.3s;
+}
+#nav-menu {
+   padding: 0 0.25rem;
+   margin: 0 -0.25rem;
+   box-shadow: inset 0 0 0 0 var(--link-1);
+   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+   color: var(--link-1);
+ }
+ #nav-menu:hover {
+   color: white;
+   box-shadow: inset 150px 0 0 0 var(--link-1);
+ }
+.navbar .menu-bar{
+   display: none;
+}
+
+.navbar .login{
+   grid-column: 8 / 9 ;
+   width: 20px;
+   height: 20px;
+}
+
+ /* end nav */
+
+ /* start header */
+
+.head{
+   height: 600px;
+   background: url( /img/bg.png);
+   background-size: auto;
+   max-width: 100%;
+   display: flex;
+   justify-content:center;
+   flex-direction: column;
+   align-items:flex-start;
+   
+}
+   .head h3{
+   font-size: 2rem;
+   color: #1085fb;
+   margin-bottom: 20px;
+   font-family: "Montserrat";
+   font-weight: 600;
+   margin-left: 50px;  
+   }
+   .head h1{
+   font-size: 4rem;
+   font-weight: 900;
+   font-style: italic;
+   margin-left: 50px;
+   }
+   .head p{
+   font-size: 1.2rem;
+   font-weight: 100;
+   margin-top: 20px;
+   font-weight: 400;
+   font-family: "Montserrat";
+   width: 300px;
+   margin-left: 50px;
+}
+.btn{
+   background-color: transparent;
+   border: none; 
+   color: black; 
+   font-size: 30px; 
+   font-weight: 400;
+   padding: 10px 45px; 
+   cursor: pointer; 
+   transition: 0.3s;
+   margin-top: 20px; 
+   font-family: "Montserrat";
+   margin-left: 50px;
+   }
+   
+   .btn:hover{ 
+   background-color: transparent; 
+   color: black;  
+   transition: 0.3s; 
+  }
+
+#btn-head {
+   background-image: linear-gradient(transparent 50%, var(--link-2) 50%);
+   background-size: auto 190%;
+   border-radius: 10px;
+   transition: background 0.3s ease-in-out;
+ }
+ #btn-head:hover {
+   background-position-y: 100%;
+ } 
+
+  /* end header */
+
+  /*start main */
+   /* start seccion servicios*/
+  
+
+.servicios{
+   background-image: url(../img/bg-servicios.jpg);
+   background-size: auto;
+   max-width: 100%;
+   display: flex;
+   height: 600px;
+   margin-top: 200px;
+   flex-flow: row wrap;
+   justify-content: center;
+   align-items: center;
+}
+   .servicios h2{
+   font-size: 4rem;
+   font-weight: 900;
+   font-style: italic;
+   color: white;
+   }
+
+   .servicios p{
+   font-size: 1.2rem;
+   font-weight: 100;
+   margin-top: 20px;
+   color:white;
+   width: 300px;
+}
+.btn-servicios{
+   background-color: transparent; 
+   color: white; 
+   font-size: 30px; 
+   padding: 10px 45px; 
+   cursor: pointer; 
+   transition: 0.3s;
+   margin: 20px 20px;
+   border: none;
+   font-family: "Montserrat", "Sans-Serif";
+}
+  .btn-servicios:hover{
+   background-color:transparent;
+   color: #1085fb;
+   transition: 0.3s;
+}
+/* end seccion servicios*/
+/* start seccion marcas*/
+.marcas{
+   background-image: url(../img/bg-marcas.jpg);
+   background-size: auto;
+   max-width: 100%;
+   display: flex;
+   height: 600px;
+   margin-top: 200px;
+   flex-flow: row wrap;
+   justify-content: center;
+   align-items: center;
+}
+   .marcas h3{
+   font-size: 2rem;
+   color: black;
+   margin-bottom: 20px;
+   font-family: "Montserrat", "Sans-Serif";
+   font-weight: 600;
+   margin-left: 50px;
+   }
+
+   .marcas p{
+   font-size: 1.2rem;
+   font-weight: 100; 
+   margin-top: 20px;
+   font-weight: 400;
+   font-family: "Montserrat", "Sans-Serif";
+   width: 300px;
+   margin-left: 50px;
+}
+
+.logo-marcas img{
+   height: 200px;
+   width: 200px;
+   margin: 15px 0;
+   }
+   .logo-marcas img:hover{
+   transform:scale(1.2,1.2);
+   transition: transform 0.5s;  
+}
+   /*end seccion marcas */
+/*end main/
+/*start footer*/
+.footer{
+  /* background-image: url(../img/bg-footer.jpg);
+   background-size: auto;*/
+   max-width: 100%;
+   display: flex;
+   height: 300px;
+   margin-top: 100px;
+   flex-flow: column nowrap;
+   justify-content: space-around;
+   align-items: center;
+   margin-bottom: 0px;
+}
+.menu-footer li{
+   padding: 10px 5px 0px 10px;
+   list-style: none;
+   font-size: 1.5rem;
+   color: white;
+   display: inline-flex;
+   }
+   .menu-footer li a{
+   color: white;
+   text-decoration: none;
+   text-align: center;
+}
+.social{
+   text-align: center;
+   padding-top: 50px;
+   font-family:"Montserrat", "Sans-Serif";
+   font-size: large;
+   }
+   .social h3{
+   color: black;
+   size: 3rem;
+   
+   }
+   .social img{
+   padding:10px 10px ;
+   width: 80px;
+   height: 80px;
+   background-color: black;
+   border-radius: 10px;
+}
+/* Animaciones */
+@keyframes Opacity{
+   from{opacity: 0;}
+   to{opacity: 1;}
+}

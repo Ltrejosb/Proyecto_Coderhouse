@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIXBIKE TIENDA & TALLER</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shorcut icon" href="../img/favicon.png">
+
+</head> 
+<div class="anuncio">
+    <p>Escribenos al +56912345678</p>
+</div>
+<body class="parallax">
+    <!-- inicia nav -->
+    <nav class="bgWhite textCenter">
+        <a href="../index.html">
+            <img src="../img/logo.png" alt="Logo de Fixbike">
+        </a>
+            <ul>
+                <li>
+                    <a href="../index.html">INICIO</a>
+                </li>
+             <li>
+                <a href="./servicios.html">SERVICIOS</a>
+                 <ul>
+                    <li><a href="">MANTENCIONES</a></li>
+                    <li><a href="">PINTURAS</a></li>
+                 </ul>
+                </li>
+            <li>
+                <a href="./productos.html">PRODUCTOS</a>
+                </li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./contacto.html">CONTACTO</a></li>
+
+        </ul>
+    </nav>
+    <!-- termina nav -->
+
+    <!-- inicia header -->
+    <header>
+        <header class="bgWhite marginTop">
+            <div class="textCenter">
+                <div>
+                 <h2>CONTACTANOS Y RESUELVE TODAS TUS DUDAS</h2>
+                 <p>Lorem ipsum, dol eveniet quibusdam sit. Libero eius voluptatem odit rerum perferendis. Omnis.</p>
+                 <p>or sit amet consectetur adipisicing elit. Explicabo, et natus itaque magni minus porro a mollitia placeat, voluptatibus incidunt</p>
+                 <p>or sit amet consectetur adipisicing elit. Explicabo, et natus itaque magni minus porro a mollitia placeatt</p>
+                </div>
+            </div> 
+        </header>
+        
+    </header>
+    <!-- termina header -->
+
+    <!-- inicia main -->
+    <main>
+        
+        <section>
+            <form class="textCenter" action="submeter-formulario.php" method="post">       
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p>
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>      
+              
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>                    
+              
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+            
+          </form>
+        </section>
+        <section></section>
+    </main>
+    <!-- termina main -->
+
+    <!-- inicia footer -->
+    <footer id="footer" class="bgWhite marginTop">
+        <div id="footerSocialMedia">
+            <ul>
+                <li>
+                    <a href="../index.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="./servicios.html">SERVICIOS</a>
+                </li>
+                <li>
+                    <a href="./productos.html">PRODUCTOS</a>
+                </li>
+                <li>
+                    <a href="./blog.html">BLOG</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+            <h3>SIGUENOS EN NUESTRAS REDES SOCIALES</h3>
+                <a href="https://www.instagram.com/fixbike/" target="_blank">
+                    <img src="../img/socialmedia/instagram.png" alt="logo de instagram">
+                </a>
+
+                <a href="https://www.facebook.com/FixBikeTalca" target="_blank">
+                    <img src="../img/socialmedia/facebook.png" alt="logo de facebook">
+                </a>
+        </div>
+        <div id="footerUbicacion">
+            <p>VISITANOS</p>
+            <P>Estamos ubicados en Salvador Allende N° 1655 - Talca</P>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1625.6850439809414!2d-71.65122304546836!3d-35.42086118734642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9665c6967633930d%3A0x81629d7e994cc658!2sAv.%20Salvador%20Allende%201600-1700%2C%20Talca%2C%20Maule!5e0!3m2!1ses!2scl!4v1662147949084!5m2!1ses!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <!-- termina footer -->
+</body>
+</html>
