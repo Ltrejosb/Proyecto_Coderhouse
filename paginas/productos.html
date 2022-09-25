@@ -5,50 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIXBIKE TIENDA & TALLER</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="shorcut icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/mediaQuery.css">
+    <link rel="shorcut icon" href="/img/favicon.png">
+    <script src="https://kit.fontawesome.com/2764f6c755.js" crossorigin="anonymous"></script>
 
 </head> 
 <div class="anuncio">
     <p>Escribenos al +56912345678</p>
 </div>
-<body class="parallax">
+<body>
     <!-- inicia nav -->
-    <nav class="bgWhite textCenter">
-        <a href="../index.html">
-            <img src="../img/logo.png" alt="Logo de Fixbike">
-        </a>
-            <ul>
-                <li>
-                    <a href="../index.html">INICIO</a>
-                </li>
-                <li>
-                <a href="./servicios.html">SERVICIOS</a>
-                 <ul>
-                    <li><a href="">MANTENCIONES</a></li>
-                    <li><a href="">PINTURAS</a></li>
-                 </ul>
-                </li>
-            <li>
-                <a href="./productos.html">PRODUCTOS</a>
-                </li>
-            <li><a href="./blog.html">BLOG</a></li>
-            <li><a href="./contacto.html">CONTACTO</a></li>
-
+    <nav class="navbar">
+        <a href="/index.html"></a>
+             <img src="/img/logo.png" class="logo" alt="logo de fixbike">
+        <ul class="menu" id="menu">
+             <li><a href="/index.html" id="nav-menu">INICIO</a></li>
+             <li><a href="/paginas/servicios.html" id="nav-menu">SERVICIOS</a></li>
+             <li><a href="/productos.html" id="nav-menu">PRODUCTOS</a></li>
+             <li><a href="/paginas/blog.html" id="nav-menu">BLOG</a></li>
+             <li><a href="/paginas/contacto.html" id="nav-menu">CONTACTO</a></li>
         </ul>
+        <div class="menu-bar" id="menu-bar">
+            <img src="/img/menu-bar.png" class="hamburger-btn"alt="boton menu hamburgesa">
+        </div>
     </nav>
     <!-- termina nav -->
 
     <!-- inicia header -->
-    <header class="bgWhite marginTop">
-        <div class="textCenter">
-            <div>
-             <h2>CONOCE NUESTRA AMPLIA VARIEDAD DE PRODUCTOS</h2>
+    <header class="head-products">
+        <div>
+             <h3>CONOCE NUESTRA AMPLIA VARIEDAD DE PRODUCTOS</h3>
              <h2>CON LAS MEJORES MARCAS</h2>
              <p>Lorem ipsum, dol eveniet quibusdam sit. Libero eius voluptatem odit rerum perferendis. Omnis.</p>
              <p>or sit amet consectetur adipisicing elit. Explicabo, et natus itaque magni minus porro a mollitia placeat, voluptatibus incidunt</p>
              <p>or sit amet consectetur adipisicing elit. Explicabo, et natus itaque magni minus porro a mollitia placeatt</p>
-            </div>
         </div> 
     </header>
     <!-- termina header -->
@@ -56,71 +47,191 @@
     <!-- inicia main -->
     <main>
         <!-- inicia servicios -->
-         <section class="marginTop tarjetaProductoTexto">
-            <div>
-                <div class="tarjetaProductoBg divProductos">
-                    <img class="tarjetaProductoImagen" src="../img/productos/cadena.jpg" alt="cadena de bicicleta">
-                    <h4>CADENA </h4>
-                    <p>$15.000</p>
+         <section class="products">
+            <div class="product-card">
+                <div class="badge">Oferta</div>
+                <div class="product-tumb">
+                    <img src="/img/productos/casco.jpg" alt="casco bicicleta">
                 </div>
-                <div class="tarjetaProductoBg divProductos">
-                    <img class="tarjetaProductoImagen" src="../img/productos/casco.jpg" alt="cadena de bicicleta">
-                    <h4>CASCO </h4>
-                    <p>$55.000</p>
+                <div class="product-details">
+                    <span class="product-catagory">Enduro,cascos</span>
+                    <h4><a href="">Casco Smith Enduro</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+                    <div class="product-bottom-details">
+                        <div class="product-price"><small>$120.000</small>$98.000</div>
+                        <div class="product-links">
+                            <a href=""><i class="fa fa-heart"></i></a>
+                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
                 </div>
-  
-                <div class="tarjetaProductoBg divProductos">
-                    <img class="tarjetaProductoImagen" src="../img/productos/piñon.jpg" alt="cadena de bicicleta">
-                    <h4>PIÑON</h4>
-                    <p>$34.500</P>
+            </div>
+            <div class="product-card">
+                <div class="badge">Oferta</div>
+                <div class="product-tumb">
+                    <img src="/img/productos/pedales.png" alt="pedales bicicleta">
                 </div>
-                <div class="tarjetaProductoBg divProductos">
-                    <img class="tarjetaProductoImagen" src="../img/productos/pedales.jpg" alt="cadena de bicicleta">
-                    <h4>PEDALES </h4>
-                    <p>$20.000</p>
+                <div class="product-details">
+                    <span class="product-catagory">Mtb,pedales</span>
+                    <h4><a href="">Pedales Rideland </a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+                    <div class="product-bottom-details">
+                        <div class="product-price"><small>$35.000</small>$30.000</div>
+                        <div class="product-links">
+                            <a href=""><i class="fa fa-heart"></i></a>
+                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
                 </div>
-            </div>     
-            
-        </section>
+            </div>
+            <div class="product-card">
+                <div class="badge">Oferta</div>
+                <div class="product-tumb">
+                    <img src="/img/productos/piñon.png" alt="piñon bicicleta">
+                </div>
+                <div class="product-details">
+                    <span class="product-catagory">Mtb,transmisión</span>
+                    <h4><a href="">Piñon Shimano 11/52 12s </a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+                    <div class="product-bottom-details">
+                        <div class="product-price"><small>$78.000</small>$63.000</div>
+                        <div class="product-links">
+                            <a href=""><i class="fa fa-heart"></i></a>
+                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="badge">Oferta</div>
+                <div class="product-tumb">
+                    <img src="/img/productos/cadena.png" alt="cadena bicicleta">
+                </div>
+                <div class="product-details">
+                    <span class="product-catagory">Mtb,cadenas</span>
+                    <h4><a href="">Cadena Shimano 12s </a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+                    <div class="product-bottom-details">
+                        <div class="product-price"><small>$30.000</small>$25.000</div>
+                        <div class="product-links">
+                            <a href=""><i class="fa fa-heart"></i></a>
+                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="badge">Más Vendido</div>
+                <div class="product-tumb">
+                    <img src="/img/productos/guantes.png" alt="guantes bicicleta">
+                </div>
+                <div class="product-details">
+                    <span class="product-catagory">Indumentaria,guantes</span>
+                    <h4><a href="">Guantes Verdes</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+                    <div class="product-bottom-details">
+                        <div class="product-price">$15.000</div>
+                        <div class="product-links">
+                            <a href=""><i class="fa fa-heart"></i></a>
+                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="badge">Más Vendido</div>
+                <div class="product-tumb">
+                    <img src="/img/productos/maza.png" alt="maza bicicleta">
+                </div>
+                <div class="product-details">
+                    <span class="product-catagory">Mtb,ruedas</span>
+                    <h4><a href="">Maza Hydra Violeta </a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+                    <div class="product-bottom-details">
+                        <div class="product-price">$75.000</div>
+                        <div class="product-links">
+                            <a href=""><i class="fa fa-heart"></i></a>
+                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="badge">Más Vendido</div>
+                <div class="product-tumb">
+                    <img src="/img/productos/tee.png" alt="tee bicicleta">
+                </div>
+                <div class="product-details">
+                    <span class="product-catagory">Mtb,componentes</span>
+                    <h4><a href="">Tee Alpha negra </a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+                    <div class="product-bottom-details">
+                        <div class="product-price">$29.000</div>
+                        <div class="product-links">
+                            <a href=""><i class="fa fa-heart"></i></a>
+                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="badge">Más Vendido</div>
+                <div class="product-tumb">
+                    <img src="/img/productos/zapatillas.png" alt="zapatillas bicicleta">
+                </div>
+                <div class="product-details">
+                    <span class="product-catagory">Mtb,Indumentaria</span>
+                    <h4><a href="">Zapatillas Fijación Ride Concept </a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+                    <div class="product-bottom-details">
+                        <div class="product-price">$95.000</div>
+                        <div class="product-links">
+                            <a href=""><i class="fa fa-heart"></i></a>
+                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>          
         <!-- termina marcas -->
     </main>
     <!-- termina main -->
 
     <!-- inicia footer -->
-    <footer id="footer" class="bgWhite marginTop">
-        <div id="footerSocialMedia">
+    <footer class="footer">
+        <div class="menu-footer">
             <ul>
                 <li>
-                    <a href="../index.html">INICIO</a>
+                    <a href="../index.html" id="nav-menu">INICIO</a>
                 </li>
                 <li>
-                    <a href="./servicios.html">SERVICIOS</a>
+                    <a href="./paginas/servicios.html" id="nav-menu">SERVICIOS</a>
                 </li>
                 <li>
-                    <a href="./productos.html">PRODUCTOS</a>
+                    <a href="./paginas/productos.html" id="nav-menu">PRODUCTOS</a>
                 </li>
                 <li>
-                    <a href="./blog.html">BLOG</a>
+                    <a href="./paginas/blog.html" id="nav-menu">BLOG</a>
                 </li>
                 <li>
-                    <a href="./contacto.html">CONTACTO</a>
+                    <a href="./paginas/contacto.html" id="nav-menu">CONTACTO</a>
                 </li>
             </ul>
-            <h3>SIGUENOS EN NUESTRAS REDES SOCIALES</h3>
-                <a href="https://www.instagram.com/fixbike/" target="_blank">
-                    <img src="../img/socialmedia/instagram.png" alt="logo de instagram">
-                </a>
-
-                <a href="https://www.facebook.com/FixBikeTalca" target="_blank">
-                    <img src="../img/socialmedia/facebook.png" alt="logo de facebook">
-                </a>
-        </div>
-        <div id="footerUbicacion">
-            <p>VISITANOS</p>
-            <P>Estamos ubicados en Salvador Allende N° 1655 - Talca</P>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1625.6850439809414!2d-71.65122304546836!3d-35.42086118734642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9665c6967633930d%3A0x81629d7e994cc658!2sAv.%20Salvador%20Allende%201600-1700%2C%20Talca%2C%20Maule!5e0!3m2!1ses!2scl!4v1662147949084!5m2!1ses!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> 
+        <div class="social">
+            <h3>SIGUENOS EN NUESTRAS REDES </h3>
+            <a href="https://www.instagram.com/fixbike/" target="_blank">
+                <img src="/img/socialmedia/instagram.png" alt="logo de instagram">
+            </a>
+            <a href="https://www.facebook.com/FixBikeTalca" target="_blank">
+                <img src="/img/socialmedia/facebook.png" alt="logo de facebook">
+            </a>
+            <a href="#">
+                <img src="/img/socialmedia/whatsapp.png" alt="logo de whatsapp">
+            </a>
         </div>
     </footer>
     <!-- termina footer -->
+    <script src="/js/script.js"></script>
 </body>
 </html>
