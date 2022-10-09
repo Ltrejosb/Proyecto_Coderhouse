@@ -1,0 +1,8 @@
+
+@mixin parrafos($font,$fontSize,$fontWeight,$fontColor) {
+    font-family: $font;
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    color: $fontColor;
+    
+}

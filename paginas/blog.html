@@ -1,53 +1,75 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FIXBIKE TIENDA & TALLER</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="shorcut icon" href="../img/favicon.png">
-
-</head> 
-<div class="anuncio">
-    <p>Escribenos al +56912345678</p>
-</div>
-<body class="parallax">
-    <!-- inicia nav -->
-    <nav class="bgWhite textCenter">
-        <a href="../index.html">
-            <img src="../img/logo.png" alt="Logo de Fixbike">
-        </a>
-            <ul>
-                <li>
-                    <a href="../index.html">INICIO</a>
-                </li>   
-             <li>
-                <a href="./servicios.html">SERVICIOS</a>
-                 <ul>
-                    <li><a href="">MANTENCIONES</a></li>
-                    <li><a href="">PINTURAS</a></li>
-                 </ul>
-                </li>
-            <li>
-                <a href="./productos.html">PRODUCTOS</a>
-                </li>
-            <li><a href="./blog.html">BLOG</a></li>
-            <li><a href="./contacto.html">CONTACTO</a></li>
-
-        </ul>
+    <title>FIXBIKE</title>
+    <link rel="shorcut icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="Logo de Fixbike"></a>
+          <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./servicios.html">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">CONTACTO</a>
+              </li>
+             </ul>
+          </div>
+        </div>
     </nav>
     <!-- termina nav -->
 
     <!-- inicia header -->
-    <header class="bgWhite marginTop">
-        <div class="textCenter">
-            <div>
+    <header >
+        <div class="blog-header">
              <h2>EN FIXBIKE TE ENTREGAMOS LAS ULTIMAS ACTUALIZACIONES DEL MTB NACIONAL</h2>
-             <p>Lorem ipsum, dol eveniet quibusdam sit. Libero eius voluptatem odit rerum perferendis. Omnis.</p>
-             <p>or sit amet consectetur adipisicing elit. Explicabo, et natus itaque magni minus porro a mollitia placeat, voluptatibus incidunt</p>
-             <p>or sit amet consectetur adipisicing elit. Explicabo, et natus itaque magni minus porro a mollitia placeatt</p>
-            </div>
+             <p>Este mes estuvimos presente en la ultima fecha del tour Nacional</p>
+             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../img/Blog/blog-header-1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/Blog/blog-header-2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/Blog/blog-header-3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/Blog/blog-header-4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                 </button>
+                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </div> 
     </header>
     <!-- termina header -->
@@ -70,40 +92,38 @@
     <!-- termina main -->
 
     <!-- inicia footer -->
-    <footer id="footer" class="bgWhite marginTop">
-        <div id="footerSocialMedia">
-            <ul>
-                <li>
-                    <a href="../index.html">INICIO</a>
-                </li>
-                <li>
-                    <a href="./servicios.html">SERVICIOS</a>
-                </li>
-                <li>
-                    <a href="./productos.html">PRODUCTOS</a>
-                </li>
-                <li>
-                    <a href="./blog.html">BLOG</a>
-                </li>
-                <li>
-                    <a href="./contacto.html">CONTACTO</a>
-                </li>
-            </ul>
-            <h3>SIGUENOS EN NUESTRAS REDES SOCIALES</h3>
-                <a href="https://www.instagram.com/fixbike/" target="_blank">
-                    <img src="../img/socialmedia/instagram.png" alt="logo de instagram">
-                </a>
-
-                <a href="https://www.facebook.com/FixBikeTalca" target="_blank">
-                    <img src="../img/socialmedia/facebook.png" alt="logo de facebook">
-                </a>
-        </div>
-        <div id="footerUbicacion">
-            <p>VISITANOS</p>
-            <P>Estamos ubicados en Salvador Allende N° 1655 - Talca</P>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1625.6850439809414!2d-71.65122304546836!3d-35.42086118734642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9665c6967633930d%3A0x81629d7e994cc658!2sAv.%20Salvador%20Allende%201600-1700%2C%20Talca%2C%20Maule!5e0!3m2!1ses!2scl!4v1662147949084!5m2!1ses!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer class="footer-07">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center">
+                    <h2>Siguenos en nuestras redes</h2>
+                    <p class="menu">
+                     <a href="../index.html">Inicio</a>
+                     <a href="./productos.html">Productos</a>
+                     <a href="./servicios.html">Servicios</a>
+                     <a href="./blog.html">Blog</a>
+                     <a href="./contacto.html">Contacto</a>
+                    </p>
+                    <ul class="social-icons">
+                      <li>
+                        <a href="https://www.instagram.com/fixbike/"><i class="fab fa-instagram"></i></a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a href="https://www.facebook.com/FixBikeTalca"><i class="fab fa-facebook"></i></a>
+                      </li>
+                      <li>
+                        <a href="https://www.whatsapp.com/?lang=es"><i class="fab fa-whatsapp"></i></a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- termina footer -->
+    <script src="https://kit.fontawesome.com/2764f6c755.js" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

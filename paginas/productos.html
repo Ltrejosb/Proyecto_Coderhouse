@@ -1,33 +1,41 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FIXBIKE TIENDA & TALLER</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/mediaQuery.css">
-    <link rel="shorcut icon" href="/img/favicon.png">
-    <script src="https://kit.fontawesome.com/2764f6c755.js" crossorigin="anonymous"></script>
-
-</head> 
-<div class="anuncio">
-    <p>Escribenos al +56912345678</p>
-</div>
+    <title>FIXBIKE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
 <body>
-    <!-- inicia nav -->
-    <nav class="navbar">
-        <a href="/index.html"></a>
-             <img src="/img/logo.png" class="logo" alt="logo de fixbike">
-        <ul class="menu" id="menu">
-             <li><a href="/index.html" id="nav-menu">INICIO</a></li>
-             <li><a href="/paginas/servicios.html" id="nav-menu">SERVICIOS</a></li>
-             <li><a href="/productos.html" id="nav-menu">PRODUCTOS</a></li>
-             <li><a href="/paginas/blog.html" id="nav-menu">BLOG</a></li>
-             <li><a href="/paginas/contacto.html" id="nav-menu">CONTACTO</a></li>
-        </ul>
-        <div class="menu-bar" id="menu-bar">
-            <img src="/img/menu-bar.png" class="hamburger-btn"alt="boton menu hamburgesa">
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="Logo de Fixbike"></a>
+          <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./servicios.html">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">CONTACTO</a>
+              </li>
+             </ul>
+          </div>
         </div>
     </nav>
     <!-- termina nav -->
@@ -55,13 +63,13 @@
                 </div>
                 <div class="product-details">
                     <span class="product-catagory">Enduro,cascos</span>
-                    <h4><a href="">Casco Smith Enduro</a></h4>
+                    <h4><a href="./productos.html">Casco Smith Enduro</a></h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
                     <div class="product-bottom-details">
                         <div class="product-price"><small>$120.000</small>$98.000</div>
                         <div class="product-links">
-                            <a href=""><i class="fa fa-heart"></i></a>
-                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a href="./productos.html"><i class="fa fa-heart"></i></a>
+                            <a href="./productos.html"><i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -73,13 +81,13 @@
                 </div>
                 <div class="product-details">
                     <span class="product-catagory">Mtb,pedales</span>
-                    <h4><a href="">Pedales Rideland </a></h4>
+                    <h4><a href="./productos.html">Pedales Rideland </a></h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
                     <div class="product-bottom-details">
                         <div class="product-price"><small>$35.000</small>$30.000</div>
                         <div class="product-links">
-                            <a href=""><i class="fa fa-heart"></i></a>
-                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a href="./productos.html"><i class="fa fa-heart"></i></a>
+                            <a href="./productos.html"><i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -91,13 +99,13 @@
                 </div>
                 <div class="product-details">
                     <span class="product-catagory">Mtb,transmisión</span>
-                    <h4><a href="">Piñon Shimano 11/52 12s </a></h4>
+                    <h4><a href="./productos.html">Piñon Shimano 11/52 12s </a></h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
                     <div class="product-bottom-details">
                         <div class="product-price"><small>$78.000</small>$63.000</div>
                         <div class="product-links">
-                            <a href=""><i class="fa fa-heart"></i></a>
-                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a href="./productos.html"><i class="fa fa-heart"></i></a>
+                            <a href="./productos.html"><i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -109,13 +117,13 @@
                 </div>
                 <div class="product-details">
                     <span class="product-catagory">Mtb,cadenas</span>
-                    <h4><a href="">Cadena Shimano 12s </a></h4>
+                    <h4><a href="./productos.html">Cadena Shimano 12s </a></h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
                     <div class="product-bottom-details">
                         <div class="product-price"><small>$30.000</small>$25.000</div>
                         <div class="product-links">
-                            <a href=""><i class="fa fa-heart"></i></a>
-                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a href="./productos.html"><i class="fa fa-heart"></i></a>
+                            <a href="./productos.html"><i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -127,13 +135,13 @@
                 </div>
                 <div class="product-details">
                     <span class="product-catagory">Indumentaria,guantes</span>
-                    <h4><a href="">Guantes Verdes</a></h4>
+                    <h4><a href="./productos.html">Guantes Verdes</a></h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
                     <div class="product-bottom-details">
                         <div class="product-price">$15.000</div>
                         <div class="product-links">
-                            <a href=""><i class="fa fa-heart"></i></a>
-                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a href="./productos.html"><i class="fa fa-heart"></i></a>
+                            <a href="./productos.html"><i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -145,13 +153,13 @@
                 </div>
                 <div class="product-details">
                     <span class="product-catagory">Mtb,ruedas</span>
-                    <h4><a href="">Maza Hydra Violeta </a></h4>
+                    <h4><a href="./productos.html">Maza Hydra Violeta </a></h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
                     <div class="product-bottom-details">
                         <div class="product-price">$75.000</div>
                         <div class="product-links">
-                            <a href=""><i class="fa fa-heart"></i></a>
-                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a href="./productos.html"><i class="fa fa-heart"></i></a>
+                            <a href="./productos.html"><i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -163,13 +171,13 @@
                 </div>
                 <div class="product-details">
                     <span class="product-catagory">Mtb,componentes</span>
-                    <h4><a href="">Tee Alpha negra </a></h4>
+                    <h4><a href="./productos.html">Tee Alpha negra </a></h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
                     <div class="product-bottom-details">
                         <div class="product-price">$29.000</div>
                         <div class="product-links">
-                            <a href=""><i class="fa fa-heart"></i></a>
-                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a href="./productos.html"><i class="fa fa-heart"></i></a>
+                            <a href="./productos.html"><i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -181,13 +189,13 @@
                 </div>
                 <div class="product-details">
                     <span class="product-catagory">Mtb,Indumentaria</span>
-                    <h4><a href="">Zapatillas Fijación Ride Concept </a></h4>
+                    <h4><a href="./productos.html">Zapatillas Fijación Ride Concept </a></h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
                     <div class="product-bottom-details">
                         <div class="product-price">$95.000</div>
                         <div class="product-links">
-                            <a href=""><i class="fa fa-heart"></i></a>
-                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a href="./productos.html"><i class="fa fa-heart"></i></a>
+                            <a href="./productos.html"><i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -198,47 +206,38 @@
     <!-- termina main -->
 
     <!-- inicia footer -->
-    <footer class="footer">
-        <div class="menu-footer">
-            <ul>
-                <li>
-                    <a href="../index.html" id="nav-menu">INICIO</a>
-                </li>
-                <li>
-                    <a href="./paginas/servicios.html" id="nav-menu">SERVICIOS</a>
-                </li>
-                <li>
-                    <a href="./paginas/productos.html" id="nav-menu">PRODUCTOS</a>
-                </li>
-                <li>
-                    <a href="./paginas/blog.html" id="nav-menu">BLOG</a>
-                </li>
-                <li>
-                    <a href="./paginas/contacto.html" id="nav-menu">CONTACTO</a>
-                </li>
-            </ul>
-        </div> 
-        <div class="social">
-            <h3>SIGUENOS EN NUESTRAS REDES </h3>
-        </div>
-        <div>
-            <ul class="social-icons">
-                <li>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-whatsapp"></i></a>
-                </li>
-            </ul>
+    <footer class="footer-07">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center">
+                    <h2>Siguenos en nuestras redes</h2>
+                    <p class="menu">
+                     <a href="../index.html">Inicio</a>
+                     <a href="./paginas/productos.html">Productos</a>
+                     <a href="./paginas/servicios.html">Servicios</a>
+                     <a href="./blog.html">Blog</a>
+                     <a href="./contacto.html">Contacto</a>
+                    </p>
+                    <ul class="social-icons">
+                        <li>
+                         <a href="https://www.instagram.com/fixbike/"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                         <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+                     </li>
+                        <li>
+                         <a href="https://www.facebook.com/FixBikeTalca"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                         <a href="https://www.whatsapp.com/?lang=es"><i class="fab fa-whatsapp"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- termina footer -->
-    <script src="/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/2764f6c755.js" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
