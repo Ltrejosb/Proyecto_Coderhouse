@@ -53,64 +53,111 @@
         transition: transform 0.5s;
     }
 }
-.social-icons{
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    li{
-        margin: 0 20px;
-        a{
-            border: 3px solid #1085fb;
-            height: 40px;
-            width: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-decoration: none;
-            color: #1085fb;
-            border-radius: 50%;
-            border-right: none;
-            border-top: none;
-            transition: 0.3s ease;
-            &:hover{
-                border-top: 3px solid;
-                border-right: 3px solid;
-                transform: rotate(360deg);
-                background-color: #1085fb;
-                border-color: white;
-                color: white;
-            } 
-        }
+
+  
+  a {
+    color: $MainColor;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $SecondaryColor;
+    text-decoration: none;
+  }
+  
+  ::selection {
+    background: $SecondaryColor;
+    text-shadow: none;
+  }
+  
+  footer {
+    padding: 2rem 0;
+    background-color:white;
+   
+  }
+  
+  .footer-column:not(:first-child) {
+      padding-top: 2rem;
+      @media (min-width: 768px) {
+        padding-top: 0rem;
+      }
     }
-}
-.footer-07{
-    background-color:#ebebeb;
-    margin-top: 150px;
+  
+  .footer-column {
+    text-align: center;
+    //border: red solid 1px;
+    .nav-item {
+      .nav-link {
+        padding: 0.1rem 0;
+      }
+      span.nav-link {
+        color: $PcolorB;
+      }
+      span.footer-title {
+        font-size: 14px;
+        font-weight: 600;
+        color:$PcolorB;
+        text-transform: uppercase;
+      }
+      .fas {
+        margin-right: 0.5rem;
+      }
+    }
+    ul {
+      display: inline-block;
+      @media (min-width: 768px) {
+        text-align: left;
+      }
+      //border: yellow solid 1px;
+    }
+  }
+  .lc-block{
     h2{
-        @include parrafos("Roboto",$textXl,$textBold,$MainColor)
+        color: #1085fb;
+             
     }
-    li{
-        list-style: none;
-        a{
-            text-decoration: none;
-        }
-    }
-}
-.menu{
-    a{
-        text-decoration: none;
-        box-shadow: inset 0 0 0 0 var($MainColor);
-        transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        color:$MainColor;
-        border-radius: 5px;
-        &:hover{
-            color:$PcolorW;
-            box-shadow: inset 150px 0 0 0 $MainColor;
-            border-radius: 5px;
-            }
-    }
-}
+} 
+  ul.social-buttons {
+    margin-bottom: 0;
+  }
+  
+  ul.social-buttons li a:active,
+  ul.social-buttons li a:focus,
+  ul.social-buttons li a:hover {
+    background-color: $SecondaryColor;
+  }
+  
+  ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #fff;
+    border-radius: 100%;
+    outline: 0;
+    background-color: $MainColor;
+  }
+  
+  footer .quick-links {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .copyright {
+    color:$PcolorG;
+  }
+  
+  .fa-ellipsis-h {
+    color:$PcolorG;
+    padding: 2rem 0;
+  }
+
 
 .products{
     display: flex;
@@ -238,45 +285,5 @@
         font-size: 1rem;
         text-align: center;
         margin-top: 20px;  
-    }
-}
-.iframes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    h4{
-        font-family: $secondaryFont;
-        margin-top: 20px;
-    }
-    p{
-        text-align: center;
-       
-    }
-}
-.iframe{
-    width:300px;
-    justify-content: center;
-}
-.blog-header{
-    h2{
-        text-align: center;
-        color: #1085fb;
-    }
-}
-.contacto{
-    margin-bottom: 150px;
-}
-.mapa{
-    margin-top: 150px;
-    display: flex;
-    flex-direction: column;
-    h3{
-        text-align: center;
-        font-family: $mainFont;
-        color: $MainColor;
-    }
-    iframe{
-        justify-content: center;
     }
 }
