@@ -10,6 +10,7 @@
     background-image: url(../img/bg.png);
     background-size: cover;
     margin-top: 150px;
+    background-color:rgba(0, 0, 0, 0.6);
    
     h1{
         font-family: $secondaryFont;
@@ -286,4 +287,21 @@
         text-align: center;
         margin-top: 20px;  
     }
+}
+
+.shadows{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} 
+
+header{
+  h1{
+    color:$MainColor;
+    font-family: $mainFont;
+  }
+}
+section{
+  h2{
+    color: $MainColor;
+    font-family: $mainFont;
+  }
 }
