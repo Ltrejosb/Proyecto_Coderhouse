@@ -22,9 +22,7 @@
     }
 }
 
-.servicios{
-    margin-top: 150px;
-}
+
 .carousel-item{
     p{
         @include parrafos("Montserrat",$textMd,$textRegular,$PcolorW);
@@ -32,10 +30,6 @@
     }
 }
 .marcas{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 150px;
     h3{
         text-align: center;
         @include parrafos("Montserrat",$textXl,$textBold,$MainColor)
@@ -85,7 +79,7 @@
   
   .footer-column {
     text-align: center;
-    //border: red solid 1px;
+    
     .nav-item {
       .nav-link {
         padding: 0.1rem 0;
@@ -111,12 +105,8 @@
       //border: yellow solid 1px;
     }
   }
-  .lc-block{
-    h2{
-        color: #1085fb;
-             
-    }
-} 
+  
+
   ul.social-buttons {
     margin-bottom: 0;
   }
