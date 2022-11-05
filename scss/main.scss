@@ -295,3 +295,16 @@ section{
     font-family: $mainFont;
   }
 }
+
+.btn{
+  background-color: $MainColor;
+  border: none;
+  a{
+    color: $PcolorB;
+  }
+}
+
+.pServicios{
+  @include parrafos($mainFont,$textMd,$textThin,$PcolorB);
+  
+}
