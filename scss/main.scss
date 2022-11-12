@@ -18,25 +18,25 @@
 
     }
     p{
-        @include parrafos("Montserrat",$textMd,$textRegular,$PcolorB)
+        @include parrafos("Montserrat",$textMd,$textRegular,$pcolorB)
     }
 }
 
 
 .carousel-item{
     p{
-        @include parrafos("Montserrat",$textMd,$textRegular,$PcolorW);
+        @include parrafos("Montserrat",$textMd,$textRegular,$pcolorW);
     
     }
 }
 .marcas{
     h3{
         text-align: center;
-        @include parrafos("Montserrat",$textXl,$textBold,$MainColor)
+        @include parrafos("Montserrat",$textXl,$textBold,$mainColor)
     }
     p{
         text-align: center;
-        @include parrafos("Montserrat",$textMd,$textRegular,$PcolorB);
+        @include parrafos("Montserrat",$textMd,$textRegular,$pcolorB);
     }
     img{
         height: 200px;
@@ -51,16 +51,16 @@
 
   
   a {
-    color: $MainColor;
+    color: $mainColor;
     text-decoration: none;
   }
   a:hover {
-    color: $SecondaryColor;
+    color: $secondaryColor;
     text-decoration: none;
   }
   
   ::selection {
-    background: $SecondaryColor;
+    background: $secondaryColor;
     text-shadow: none;
   }
   
@@ -141,11 +141,11 @@
   }
   
   .copyright {
-    color:$PcolorG;
+    color:$pcolorG;
   }
   
   .fa-ellipsis-h {
-    color:$PcolorG;
+    color:$pcolorG;
     padding: 2rem 0;
   }
 
@@ -261,7 +261,7 @@
     flex-direction: row;
     align-items: flex-start;
     h3{
-        @include parrafos($mainFont,$textMd,$textBold,$MainColor);
+        @include parrafos($mainFont,$textMd,$textBold,$mainColor);
         text-align: center;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -285,26 +285,26 @@
 
 header{
   h1{
-    color:$MainColor;
+    color:$mainColor;
     font-family: $mainFont;
   }
 }
 section{
   h2{
-    color: $MainColor;
+    color: $mainColor;
     font-family: $mainFont;
   }
 }
 
 .btn{
-  background-color: $MainColor;
+  background-color: $mainColor;
   border: none;
   a{
-    color: $PcolorB;
+    color: $pcolorB;
   }
 }
 
 .pServicios{
-  @include parrafos($mainFont,$textMd,$textThin,$PcolorB);
+  @include parrafos($mainFont,$textMd,$textThin,$pcolorB);
   
 }
